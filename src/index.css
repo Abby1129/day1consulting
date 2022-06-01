@@ -8,11 +8,8 @@ body {
 
 @layer base {
   li {
-    @apply p-4;
-    @apply text-xl;
-    @apply cursor-pointer;
+    @apply p-4 text-xl cursor-pointer sm:hover:text-cyan-600;
   }
-
   button {
     @apply text-white border bg-cyan-600 border-cyan-600
     hover:bg-transparent hover:text-cyan-600 rounded-md;
