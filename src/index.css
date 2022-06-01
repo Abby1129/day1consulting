@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-color: #2f2e2c;
+}
+
+@layer base {
+  li {
+    @apply p-4;
+    @apply text-xl;
+    @apply cursor-pointer;
+  }
+
+  button {
+    @apply text-white border bg-cyan-600 border-cyan-600
+    hover:bg-transparent hover:text-cyan-600 rounded-md;
+  }
+}
