@@ -26,7 +26,7 @@ const Navbar = () => {
       <ul
         className={
           nav
-            ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in duration-500"
+            ? "fixed top-0 left-0 w-[60%] h-ful border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500"
             : "ease-out duration-500 fixed left-[-100%]"
         }
       >
