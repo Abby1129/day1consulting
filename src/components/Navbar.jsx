@@ -9,28 +9,28 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex justify-between items-center w-screen h-24 bg-[#000300] fixed drop-shadow-lg px-4 z-50 text-white">
-      <h1 className="text-[#ffc40a] text-3xl font-bold mr-4">
+    <nav className="flex justify-between items-center w-screen h-24 bg-[#000300] fixed drop-shadow-lg px-4 z-50 text-white ">
+      <h1 className="text-[#ffc40a] text-3xl font-bold mr-4 mx-8">
         Day1 Consulting.
       </h1>
-      <ul className="hidden md:flex ">
+      <ul className="hidden md:flex mx-8">
         <li>Home</li>
         <li>About</li>
         <li>Services</li>
         <li>Team</li>
         <li>Contact</li>
       </ul>
-      <div onClick={handleNav} className="block md:hidden">
-        {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
+      <div onClick={handleNav} className="block md:hidden m-8">
+        {nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
       </div>
       <ul
         className={
           nav
-            ? "fixed top-0 left-0 w-[60%] h-ful border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500"
+            ? "fixed top-0 left-0 w-[60%] h-ful border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500 "
             : "ease-out duration-500 fixed left-[-100%]"
         }
       >
-        <h1 className="text-[#ffc40a] text-3xl font-bold m-8 ">
+        <h1 className="text-[#ffc40a] text-3xl font-bold m-7 ">
           Day1 Consulting.
         </h1>
         <li className="bg-[#2F2E2C] border-b border-gray-600">Home</li>
