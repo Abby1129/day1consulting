@@ -3,7 +3,7 @@ import supportImg from "../assets/support.png";
 
 const About = () => {
   return (
-    <div className="w-full bg-black text-white py-16 px-4 ">
+    <section className="w-full bg-black text-white py-16 px-4 ">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 ">
         <img
           className="w-[500px] mx-auto my-4 rounded-tl-lg rounded-br-[400px] rounded-tr-[100px]"
@@ -26,7 +26,7 @@ const About = () => {
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

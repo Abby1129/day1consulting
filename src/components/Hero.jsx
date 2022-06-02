@@ -3,8 +3,8 @@ import Video from "../assets/video.mp4";
 
 const Hero = () => {
   return (
-    <header class="relative flex items-center justify-center h-screen  overflow-hidden">
-      <div class="relative z-30 p-5 text-2xl text-white ">
+    <header className="relative flex items-center justify-center h-screen  overflow-hidden">
+      <div className="relative z-30 p-5 text-2xl text-white ">
         <p className="text-cyan-600  font-bold p-2">GROW YOUR BUSINESS</p>
         <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6">
           Manage your data.
