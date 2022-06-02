@@ -11,10 +11,12 @@ const About = () => {
           alt="/"
         />
         <div className="flex flex-col justify-center">
-          <p className="text-[#679BF1] font-bold ">DATA EXPERTISE</p>
-          <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
-            Let Us Solve Your Data Problems
+          <h1 className="text-[#679BF1] font-bold uppercase text-3xl">
+            DATA EXPERTS
           </h1>
+          <h2 className="md:text-4xl sm:text-3xl text-2xl font-bold py-7">
+            Your Day1 Tech Partner.
+          </h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos
             provident aliquid, eius odio eaque et hic, nihil omnis culpa,
