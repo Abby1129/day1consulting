@@ -14,7 +14,7 @@ const Hero = () => {
           suscipit?
         </p>
         <button className="bg-[#FFC40A] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black hover:bg-[#F8DE7E]">
-          Get Started
+          Learn More
         </button>
       </div>
       <video

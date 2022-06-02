@@ -6,11 +6,6 @@ const Team = () => {
   return (
     <section className="w-full bg-black text-white py-16 px-6">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 ">
-        {/* <img
-          className="w-[500px] mx-auto my-4 rounded-tl-lg rounded-br-[400px] rounded-tr-[100px]"
-          src={teamImg}
-          alt="/"
-        /> */}
         <div className="flex flex-col justify-between">
           <h1 className="text-[#679BF1] font-bold uppercase text-3xl">
             Our Team
