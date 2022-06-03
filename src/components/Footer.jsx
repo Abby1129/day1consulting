@@ -11,8 +11,8 @@ import footerImg from "../assets/footer.png";
 
 const Footer = () => {
   return (
-    <div className="w-full mt-24 bg-[#2F2E2C] text-[#F8DE7E] py-8 px-2">
-      <div className="max-w-[1240px] mx-auto grid grid-cols-2 md:grid-cols-6 border-b-2 border-[#8AB9F1] py-8">
+    <div className="w-full mt-24 bg-[#2F2E2C] text-[#F8DE7E] py-8 px-2 ">
+      <div className="max-w-[1240px] mx-auto grid grid-cols-2 md:grid-cols-6 border-b-2 border-[#8AB9F1] ">
         <div>
           <h6 className="font-bold uppercase pt-2">Solutions</h6>
           <ul>
