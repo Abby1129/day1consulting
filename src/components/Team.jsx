@@ -4,7 +4,10 @@ import teamImg from "../assets/team.png";
 
 const Team = () => {
   return (
-    <section className="w-full bg-black text-white py-16 px-6">
+    <section
+      id="team"
+      className="w-full bg-black text-white py-16 px-6 h-screen"
+    >
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 ">
         <div className="flex flex-col justify-between">
           <h1 className="text-[#679BF1] font-bold uppercase text-3xl">
@@ -13,7 +16,7 @@ const Team = () => {
           <h2 className="md:text-4xl sm:text-3xl text-2xl font-bold py-7">
             Obtain solutions for
             <Typed
-              className="md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2 text-[#F8DE7E]"
+              className="md:text-4xl sm:text-3xl text-xl font-bold md:pl-4 pl-2 text-[#F8DE7E]"
               strings={["Cloud", "AWS", "Azure"]}
               typeSpeed={120}
               backSpeed={140}

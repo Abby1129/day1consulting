@@ -5,7 +5,7 @@ import Service3 from "../assets/service3.png";
 
 const Services = () => {
   return (
-    <div className="w-full py-[3rem] px-4 bg-white">
+    <section id="services" className="w-full py-[3rem] px-4 bg-white h-screen">
       <h1 className="text-4xl text-center font-bold py-5 text-[#679BF1]">
         What We Offer
       </h1>
@@ -44,7 +44,7 @@ const Services = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
