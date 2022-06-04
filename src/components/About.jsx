@@ -1,6 +1,7 @@
 import React from "react";
 import supportImg from "../assets/support.png";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { Link as LinkS } from "react-scroll";
 
 const About = () => {
   return (
@@ -24,11 +25,18 @@ const About = () => {
             delectus molestiae? Sed dolorum recusandae facere ex, autem velit
             blanditiis suscipit?
           </p>
-          <Link to="/contact">
+          <LinkS
+            to="services"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+          >
             <button className="bg-[#FFC40A] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 text-black hover:bg-[#F8DE7E]">
               Get Started
             </button>
-          </Link>
+          </LinkS>
         </div>
       </div>
     </section>
