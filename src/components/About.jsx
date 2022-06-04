@@ -1,12 +1,13 @@
 import React from "react";
 import supportImg from "../assets/support.png";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <section className="w-full bg-black text-white py-16 px-4">
-      <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 ">
+    <section id="about" className="w-full bg-black text-white py-16 px-4">
+      <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 h-[800px]">
         <img
-          className="w-[500px] mx-auto my-4 rounded-tl-lg rounded-br-[400px] rounded-tr-[100px]"
+          className="mt-24  rounded-tl-lg rounded-br-[400px] rounded-tr-[100px]"
           src={supportImg}
           alt="/"
         />
@@ -23,9 +24,11 @@ const About = () => {
             delectus molestiae? Sed dolorum recusandae facere ex, autem velit
             blanditiis suscipit?
           </p>
-          <button className="bg-[#FFC40A] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 text-black hover:bg-[#F8DE7E]">
-            Get Started
-          </button>
+          <Link to="/contact">
+            <button className="bg-[#FFC40A] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 text-black hover:bg-[#F8DE7E]">
+              Get Started
+            </button>
+          </Link>
         </div>
       </div>
     </section>

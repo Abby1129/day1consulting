@@ -1,6 +1,7 @@
 import React from "react";
 import Typed from "react-typed";
 import teamImg from "../assets/team.png";
+import { Link } from "react-router-dom";
 
 const Team = () => {
   return (
@@ -29,9 +30,11 @@ const Team = () => {
             delectus molestiae? Sed dolorum recusandae facere ex, autem velit
             blanditiis suscipit?
           </p>
-          <button className="bg-[#FFC40A] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 text-black hover:bg-[#F8DE7E]">
-            Request Consultation
-          </button>
+          <Link to="/contact">
+            <button className="bg-[#FFC40A] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 text-black hover:bg-[#F8DE7E]">
+              Request Consultation
+            </button>
+          </Link>
         </div>
         <img
           className="w-[500px] mx-auto my-4 rounded-tr-lg rounded-tl-[100px] rounded-br-[100px] rounded-bl-lg "
