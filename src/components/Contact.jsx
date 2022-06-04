@@ -1,14 +1,19 @@
 import React from "react";
 import Typed from "react-typed";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
     <>
-      <section className="text-gray-700 relative bg-[#679BF1] ">
+      <section id="contact" className="text-gray-700 relative bg-[#679BF1] ">
         <div className="px-3 py-24 mx-auto">
-          <h1 className=" ml-8  font-bold md:text-4xl sm:text-3xl text-[#F6C40A]">
+          <Link
+            to="/"
+            className=" ml-8  font-bold md:text-4xl sm:text-3xl text-[#F6C40A] 	text-decoration-line: none;"
+          >
             Day1 Consulting
-          </h1>
+          </Link>
+
           <div className="flex flex-col text-center w-full mb-12">
             <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-7 mt-20">
               Contact us for
@@ -26,6 +31,7 @@ const Contact = () => {
               perferendis eius assumenda facilis.
             </p>
           </div>
+
           <div className="lg:w-1/2 md:w-2/3 mx-auto w-full">
             <div className="flex flex-wrap -m-2">
               <div className="p-2 w-1/2">
