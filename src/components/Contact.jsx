@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Contact = () => {
   return (
     <>
-      <section id="contact" className="text-gray-700 relative bg-[#679BF1] ">
+      <section id="contact" className="text-gray-700 relative bg-[#2F2E2C] ">
         <div className="px-3 py-24 mx-auto">
           <Link
             to="/"
@@ -15,7 +15,7 @@ const Contact = () => {
           </Link>
 
           <div className="flex flex-col text-center w-full mb-12">
-            <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-7 mt-20">
+            <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-7 mt-20 text-indigo-500">
               Contact us for
               <Typed
                 className="md:text-5xl sm:text-3xl text-xl font-bold md:pl-4 pl-2 text-[#F8DE7E]"
