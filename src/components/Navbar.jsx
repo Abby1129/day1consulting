@@ -31,7 +31,7 @@ const Navbar = () => {
   return (
     <nav
       scrollNav={scrollNav}
-      className="flex justify-between items-center w-screen h-24 bg-[#000300] fixed drop-shadow-lg px-4 z-50 text-white "
+      className="flex justify-between items-center w-screen h-24 bg-[#2f2e2c] fixed drop-shadow-lg px-4 z-50 text-white "
     >
       <LinkR
         to="/"

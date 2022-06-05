@@ -5,10 +5,7 @@ import { Link } from "react-router-dom";
 
 const Team = () => {
   return (
-    <section
-      id="team"
-      className="w-full bg-black text-white py-16 px-6 h-screen"
-    >
+    <section id="team" className="w-full bg-black text-white py-16 px-6 ">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 ">
         <div className="flex flex-col justify-between">
           <h1 className="text-[#679BF1] font-bold uppercase text-3xl">
