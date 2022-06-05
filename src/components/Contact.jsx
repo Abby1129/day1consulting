@@ -71,7 +71,7 @@ const Contact = () => {
               <div className="p-2 w-full">
                 <div className="relative">
                   <label
-                    for="message"
+                    htmlFor="message"
                     className="leading-7 text-sm text-gray-600"
                   >
                     Message

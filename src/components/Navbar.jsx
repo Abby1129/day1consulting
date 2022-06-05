@@ -1,3 +1,4 @@
+import { getValue } from "@testing-library/user-event/dist/utils";
 import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { Link as LinkR } from "react-router-dom";
@@ -30,7 +31,7 @@ const Navbar = () => {
 
   return (
     <nav
-      scrollNav={scrollNav}
+      scrollnav={getValue.toString()}
       className="flex justify-between items-center w-screen h-24 bg-[#2f2e2c] fixed drop-shadow-lg px-4 z-50 text-white "
     >
       <LinkR
