@@ -8,6 +8,7 @@ import { animateScroll as scroll } from "react-scroll";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [scrollNav, setScrollNav] = useState(false);
+  // const [isOpen, setIsOpen] = useState(false);
 
   const handleNav = () => {
     setNav(!nav);
@@ -31,7 +32,7 @@ const Navbar = () => {
 
   return (
     <nav
-      scrollnav={getValue.toString()}
+      scrollnav={getValue.toString(scrollNav)}
       className="flex justify-between items-center w-screen h-24 bg-[#2f2e2c] fixed drop-shadow-lg px-4 z-50 text-white "
     >
       <LinkR
@@ -100,18 +101,28 @@ const Navbar = () => {
       <ul
         className={
           nav
-            ? "fixed top-0 left-0 w-[60%] h-ful border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500 "
+            ? "fixed top-0 left-0 w-[60%] h-screen border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500 "
             : "ease-out duration-500 fixed left-[-100%]"
         }
       >
         <h1 className="text-[#ffc40a] text-3xl font-bold m-7 ">
           Day1 Consulting.
         </h1>
-        <li className="bg-[#2F2E2C] border-b border-gray-600">Home</li>
-        <li className="bg-[#2F2e2c] border-b border-gray-600">About</li>
-        <li className="bg-[#2F2e2c] border-b border-gray-600">Services</li>
-        <li className="bg-[#2F2e2c] border-b border-gray-600">Team</li>
-        <li className="bg-[#2F2e2c]">Contact</li>
+        <LinkS to="home">
+          <li className="border-b border-gray-600">Home</li>
+        </LinkS>
+        <LinkS to="about">
+          <li className="border-b border-gray-600">About</li>
+        </LinkS>
+        <LinkS to="services">
+          <li className="border-b border-gray-600">Services</li>
+        </LinkS>
+        <LinkS to="team">
+          <li className="border-b border-gray-600">Team</li>
+        </LinkS>
+        <LinkR to="/contact">
+          <li className="border-b border-gray-600">Contact</li>
+        </LinkR>
       </ul>
     </nav>
   );
