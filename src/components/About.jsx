@@ -23,7 +23,7 @@ const About = () => {
           <h2 className="md:text-4xl sm:text-3xl text-2xl font-bold py-7">
             Your Day1 Tech Partner.
           </h2>
-          <p className="">
+          <p className="leading-7">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae
             dolore ea doloribus, quasi ullam adipisci obcaecati facere itaque
             provident est pariatur molestias sed omnis, error ratione optio eum
