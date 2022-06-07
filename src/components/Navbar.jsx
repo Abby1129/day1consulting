@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { Link as LinkR } from "react-router-dom";
 import { Link as LinkS } from "react-scroll";
-import { animateScroll as scroll } from "react-scroll";
+import { scroller as scroll } from "react-scroll";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -44,8 +44,7 @@ const Navbar = () => {
       <ul className="hidden md:flex mx-8">
         <LinkS
           className="p-4 text-xl cursor-pointer sm:hover:text-[#FFC40A] "
-          to="/"
-          onClick={toggleHome}
+          to="home"
           smooth={true}
           duration={500}
           offset={-80}
