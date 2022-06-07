@@ -7,9 +7,9 @@ const Team = () => {
   return (
     <section
       id="team"
-      className="bg-[#2F2E2C] text-white py-16  w-full sm:h-screen lg:h-[850px] sm:px-9 "
+      className="bg-[#2F2E2C] text-white py-4  w-full sm:h-screen lg:h-[850px] px-9"
     >
-      <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 mt-24 mb-6">
+      <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 lg:mt-20 sm:mt-12 mb-6">
         <div className="flex flex-col justify-center  sm:mt-0 ">
           <h1 className="text-[#679BF1] font-bold uppercase text-3xl">
             Our Team
