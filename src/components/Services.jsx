@@ -5,7 +5,7 @@ import Service3 from "../assets/service3.png";
 
 const Services = () => {
   return (
-    <section id="services" className="w-full py-16 lg:h-[860px] ">
+    <section id="services" className="w-full py-16 lg:h-[860px]  font-lato">
       <h1 className="text-4xl text-center font-bold lg:py-8 sm:py-2  text-[#679BF1]  ">
         What We Offer
       </h1>

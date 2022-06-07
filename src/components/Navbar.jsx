@@ -32,12 +32,12 @@ const Navbar = () => {
   return (
     <nav
       scrollnav={getValue.toString(scrollNav)}
-      className="flex sm:justify-between lg:justify-around items-center w-screen h-24 bg-[#2f2e2c] fixed drop-shadow-lg px-4 z-50 text-white "
+      className="flex sm:justify-between lg:justify-around items-center w-screen h-24 bg-[#2f2e2c] fixed drop-shadow-lg px-4 z-50 text-white font-lato"
     >
       <LinkR
         to="/"
         onClick={toggleHome}
-        className="text-[#ffc40a] text-3xl font-bold mr-4 mx-8"
+        className="text-[#ffc40a] text-3xl font-bold mr-4 mx-8 "
       >
         Day1 Consulting.
       </LinkR>

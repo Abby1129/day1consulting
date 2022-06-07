@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <header
       id="home"
-      className="relative flex items-center justify-center h-screen  overflow-hidden"
+      className="relative flex items-center justify-center h-screen  overflow-hidden  font-lato"
     >
       <div className="relative z-30 p-5 text-2xl text-white  ">
         <p className="text-[#679BF1]  font-bold p-2">GROW YOUR BUSINESS</p>
