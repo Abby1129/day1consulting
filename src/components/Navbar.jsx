@@ -33,7 +33,7 @@ const Navbar = () => {
   return (
     <nav
       scrollnav={getValue.toString(scrollNav)}
-      className="flex justify-between items-center w-screen h-24 bg-[#2f2e2c] fixed drop-shadow-lg px-4 z-50 text-white "
+      className="flex sm:justify-between lg:justify-around items-center w-screen h-24 bg-[#2f2e2c] fixed drop-shadow-lg px-4 z-50 text-white "
     >
       <LinkR
         to="/"
