@@ -8,7 +8,6 @@ import { animateScroll as scroll } from "react-scroll";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [scrollNav, setScrollNav] = useState(false);
-  // const [isOpen, setIsOpen] = useState(false);
 
   const handleNav = () => {
     setNav(!nav);
@@ -44,13 +43,11 @@ const Navbar = () => {
       </LinkR>
       <ul className="hidden md:flex mx-8">
         <LinkS
-          className="p-4 text-xl cursor-pointer sm:hover:text-[#FFC40A] 	text-decoration-line: none;"
+          className="p-4 text-xl cursor-pointer sm:hover:text-[#FFC40A] "
           to="/"
           onClick={toggleHome}
           smooth={true}
           duration={500}
-          spy={true}
-          exact="true"
           offset={-80}
         >
           Home
@@ -60,8 +57,6 @@ const Navbar = () => {
           to="about"
           smooth={true}
           duration={500}
-          spy={true}
-          exact="true"
           offset={-80}
         >
           About
@@ -71,8 +66,6 @@ const Navbar = () => {
           to="services"
           smooth={true}
           duration={500}
-          spy={true}
-          exact="true"
           offset={-80}
         >
           Services
@@ -82,8 +75,6 @@ const Navbar = () => {
           to="team"
           smooth={true}
           duration={500}
-          spy={true}
-          exact="true"
           offset={-80}
         >
           Team
@@ -108,19 +99,49 @@ const Navbar = () => {
         <h1 className="text-[#ffc40a] text-3xl font-bold m-7 ">
           Day1 Consulting.
         </h1>
-        <LinkS to="home">
+        <LinkS
+          to="home"
+          onClick={handleNav}
+          smooth={true}
+          duration={500}
+          offset={-80}
+        >
           <li className="border-b border-gray-600">Home</li>
         </LinkS>
-        <LinkS to="about">
+        <LinkS
+          to="about"
+          onClick={handleNav}
+          smooth="true"
+          duration={500}
+          offset={-80}
+        >
           <li className="border-b border-gray-600">About</li>
         </LinkS>
-        <LinkS to="services">
+        <LinkS
+          to="services"
+          onClick={handleNav}
+          smooth="true"
+          duration={500}
+          offset={-80}
+        >
           <li className="border-b border-gray-600">Services</li>
         </LinkS>
-        <LinkS to="team">
+        <LinkS
+          to="team"
+          onClick={handleNav}
+          smooth="true"
+          duration={500}
+          offset={-80}
+        >
           <li className="border-b border-gray-600">Team</li>
         </LinkS>
-        <LinkR to="/contact">
+        <LinkR
+          to="/contact"
+          onClick={handleNav}
+          smooth="true"
+          duration={500}
+          offset={-80}
+        >
           <li className="border-b border-gray-600">Contact</li>
         </LinkR>
       </ul>
