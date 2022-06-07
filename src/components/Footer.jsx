@@ -11,7 +11,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-[#F6C40A] text-[#2F2E2C]">
+    <footer className="w-full bg-[#F6C40A] text-[#2F2E2C]  font-lato">
       <div className="max-w-[1240px] flex lg:flex-row sm:flex-col mx-auto items-center py-8 px-4 justify-around">
         <div className="flex justify-between w-[200px] text-xl py-3 mr-3">
           <a href="www.github.com">

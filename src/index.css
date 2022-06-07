@@ -17,12 +17,12 @@
     @apply text-white border bg-cyan-600 border-cyan-600
     hover:bg-transparent hover:text-cyan-600 rounded-md;
   } */
-* {
+/* * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: "Encode Sans Expanded", sans-serif;
-}
+} */
 
 @layer base {
   li {
