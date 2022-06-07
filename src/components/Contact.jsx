@@ -6,19 +6,19 @@ const Contact = () => {
   return (
     <>
       <section id="contact" className="text-gray-700 relative bg-[#2F2E2C] ">
-        <div className="px-3 py-8 mx-auto">
+        <div className="px-3 py-8 sm:py-6 mx-auto">
           <Link
             to="/"
-            className="px-7 mx-7 text-4xl font-bold text-[#F6C40A] 	text-decoration-line: none"
+            className="px-7 mx-7 sm:text-3xl text-4xl font-bold text-[#F6C40A] 	text-decoration-line: none"
           >
             Day1 Consulting
           </Link>
 
           <div className="flex flex-col text-center w-full mb-12">
-            <h1 className="text-4xl font-bold py-7 mt-20 text-[#679BF1]">
+            <h1 className="text-4xl font-bold py-7 mt-20 sm:mt-8 text-[#679BF1]">
               Contact us for
               <Typed
-                className="md:text-5xl sm:text-3xl text-xl font-bold md:pl-4 pl-2 text-[#F8DE7E]"
+                className="lg:text-5xl sm:text-4xl text-xl font-bold lg:pl-4 pl-2 text-[#F8DE7E]"
                 strings={["Pricing", "Consultation", "Inquiries"]}
                 typeSpeed={100}
                 backSpeed={90}
