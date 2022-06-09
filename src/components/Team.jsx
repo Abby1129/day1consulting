@@ -7,7 +7,7 @@ const Team = () => {
   return (
     <section
       id="team"
-      className="bg-[#2F2E2C] text-white py-4  w-full sm:h-screen lg:h-[850px] px-9  font-lato"
+      className="bg-[#2F2E2C] text-white py-4  w-full sm:h-screen md:h-[850px] px-9  font-lato"
     >
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 lg:mt-20 sm:mt-12 mb-6">
         <div className="flex flex-col justify-center  sm:mt-0 ">

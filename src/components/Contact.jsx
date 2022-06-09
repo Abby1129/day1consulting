@@ -18,7 +18,7 @@ const Contact = () => {
             <h1 className="text-4xl font-bold py-7 mt-20 sm:mt-8 text-[#679BF1]">
               Contact us for
               <Typed
-                className="lg:text-5xl sm:text-4xl text-xl font-bold lg:pl-4 pl-2 text-[#F8DE7E]"
+                className="md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2 text-[#F8DE7E]"
                 strings={["Pricing", "Consultation", "Inquiries"]}
                 typeSpeed={100}
                 backSpeed={90}
@@ -32,7 +32,7 @@ const Contact = () => {
             </p>
           </div>
 
-          <div className="lg:w-1/2 md:w-2/3 mx-auto ">
+          <div className="md:w-1/2 md:w-2/3 mx-auto ">
             <div className="flex flex-wrap m-2">
               <div className="p-2 w-1/2 ">
                 <div className="relative">
