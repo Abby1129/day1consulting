@@ -19,7 +19,6 @@ const Hero = () => {
         </p>
         <Link to="/contact">
           <button className="bg-[#FFC40A] w-[200px] rounded-md font-medium text-black hover:bg-[#F8DE7E] my-6 mx-auto py-3 ">
-            {/* my-6 mx-auto py-3  */}
             Learn More
           </button>
         </Link>

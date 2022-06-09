@@ -7,15 +7,14 @@ const About = () => {
   return (
     <section
       id="about"
-      className="bg-[#2F2E2C] text-white py-16  w-full sm:h-screen lg:h-[850px]  font-lato"
+      className="bg-[#2F2E2C] text-white py-16  w-full sm:h-screen md:h-[850px]  font-lato"
     >
-      {/* sm:h-screen sm-py-8 */}
-      <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 lg:py-12  px-8 sm:mt-9">
+      <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 md:py-12  px-8 sm:mt-9">
         <img
           className=" my-10 "
           src={supportImg}
           alt="/"
-          // rounded-tl-lg rounded-br-[400px] rounded-tr-[100px]
+          
         />
         <div className="flex flex-col justify-center ml-12 ">
           <h1 className="text-[#679BF1] font-bold uppercase text-3xl">
