@@ -39,7 +39,7 @@ const Navbar = () => {
         onClick={toggleHome}
         className="text-[#ffc40a] text-3xl font-bold mr-4 mx-8 "
       >
-        Day1 Consulting.
+        Day1 Consulting&#8482;
       </LinkR>
       <ul className="hidden md:flex mx-8">
         <LinkS
