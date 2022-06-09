@@ -11,7 +11,7 @@ const Contact = () => {
             to="/"
             className="px-7 mx-7 sm:text-3xl text-4xl font-bold text-[#F6C40A] 	text-decoration-line: none"
           >
-            Day1 Consulting
+            Day1 Consulting&#8482;
           </Link>
 
           <div className="flex flex-col text-center w-full mb-12">

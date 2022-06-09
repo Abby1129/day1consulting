@@ -25,7 +25,7 @@ const Footer = () => {
           <FaTwitch />
         </div>
         <h1 className="font-bold lg:text-2xl sm:text-lg">
-          Day1 Consulting © 2022 All rights reserved.
+          Day1 Consulting&#8482; © 2022 All rights reserved.
         </h1>
 
         <Link to="/contact">
